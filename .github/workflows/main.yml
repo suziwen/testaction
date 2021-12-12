@@ -3,7 +3,7 @@ name: Sculpting Action Publish
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
