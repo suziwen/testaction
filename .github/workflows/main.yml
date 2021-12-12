@@ -11,8 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/checkout@v2
+        if: always()
         with:
-          repository: suziwen/testactiontarget
+          repository: suziwen/testactiontargetzz
           ref: refs/heads/main
           token: ${{ secrets.ACCESS_TOKEN }}
           fetch-depth: 1
