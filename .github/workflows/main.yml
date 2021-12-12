@@ -15,9 +15,10 @@ jobs:
           repository: suziwen/testactiontarget
           ref: refs/heads/main
           fetch-depth: 1
-          path: 'testaction/public'
+          path: 'public'
       - run: |
           ls
+          pwd
           cd public
           ls -lhart
           cd ..
