@@ -85,7 +85,7 @@ const badgeStyle = {
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Home Page</title>
+      <title>Home Page tttt</title>
       <h1 style={headingStyles}>
         Congratulations
         <br />
