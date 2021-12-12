@@ -18,7 +18,7 @@ jobs:
           path: 'testaction/public'
       - uses: actions/setup-node@v1
         with:
-          node-version: '12.16.1'
+          node-version: '16.13.1'
       - uses: suziwen/gatsby-gh-pages-action@v2.2.9
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
