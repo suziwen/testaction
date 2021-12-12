@@ -21,6 +21,10 @@ jobs:
           pwd
           cd public
           ls -lhart
+          date > date.txt
+          git add --all .
+          git commit -m 'test'
+          git push -f
           cd ..
       - uses: actions/setup-node@v1
         with:
