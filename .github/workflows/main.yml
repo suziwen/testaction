@@ -14,6 +14,7 @@ jobs:
         with:
           repository: suziwen/testactiontarget
           ref: refs/heads/main
+          token: ${{ secrets.ACCESS_TOKEN }}
           fetch-depth: 1
           path: 'public'
       - run: |
