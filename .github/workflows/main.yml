@@ -16,6 +16,11 @@ jobs:
           ref: refs/heads/main
           fetch-depth: 1
           path: 'testaction/public'
+      - run: |
+          ls
+          cd public
+          ls -lhart
+          cd ..
       - uses: actions/setup-node@v1
         with:
           node-version: '16.13.1'
